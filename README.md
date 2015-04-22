@@ -2,7 +2,7 @@
 TFSIntegration is a tool to handle TFS SOAP Alerts.
 
 #Change log
-*1.0.0:* Handle work items changes alerts. Current handler implementation is used to create items by some particular conditions.
+**1.0.0:** Handle work items changes alerts. Current handler implementation is used to create items by some particular conditions.
 
 # Configuration
 1. Add an Alert ("A new work item is created in this team project") 
