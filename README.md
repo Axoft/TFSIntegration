@@ -43,8 +43,8 @@ Configuration file template:
        </EventTypes>
      </Configuration>
 ```
-<Tag Value="DEFAULT"> would be processed always.
+`<Tag Value="DEFAULT">` would be processed always.
 
-<Tag Value=""> would be processed if changed item does not have any tag.
+`<Tag Value="">` would be processed if changed item does not have any tag.
 
-<Tag Value="ZZZ"> (Custom tags) are processed if matches with changed item tags.
+`<Tag Value="ZZZ">` (Custom tags) are processed if matches with changed item tags.
