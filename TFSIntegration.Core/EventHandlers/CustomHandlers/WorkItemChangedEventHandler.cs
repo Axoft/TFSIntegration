@@ -102,7 +102,7 @@ namespace TFSIntegration.Core.EventHandlers
         {
             if (tag == null)
             {
-                EventManager.Notify(EventType.Error, string.Format("Tag {0} not found in taks {1}", tag, createdTaskInfo.CreatedTaskID));
+                EventManager.Notify(EventType.Error, string.Format("Tag {0} has not configuration", tag));
             }
             else
             {
