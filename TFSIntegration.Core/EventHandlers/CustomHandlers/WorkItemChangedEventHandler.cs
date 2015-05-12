@@ -78,8 +78,10 @@ namespace TFSIntegration.Core.EventHandlers
                 var tagField = eventInfo.TextFields.TextField.Where(f => f.Name == "Tags").FirstOrDefault();
                 if (tagField != null)
                 {
-                    tags.AddRange(tagField.Value.Split(';'));
-                    tags.ForEach(t => t = t.Trim());
+                    foreach (string tag in tagField.Value.Split(';'))
+                    {
+                        tags.Add(tag.Trim());
+                    }
                 }   
             }
             return tags;
